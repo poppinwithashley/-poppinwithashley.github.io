@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Poppin' with Ashley | Sweet Treats</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#09060d;color:#fff}
+header{background:linear-gradient(135deg,#160d24,#4b1680,#160d24);padding:18px 7%;position:sticky;top:0;z-index:5;border-bottom:2px solid #c9a227}
+nav{display:flex;justify-content:space-between;align-items:center;gap:20px}.brand{font-size:25px;font-weight:900;color:#b86cff;text-shadow:0 0 12px #8d35d8}
+nav a{color:#fff;text-decoration:none;margin-left:18px;font-weight:bold}
+.hero{text-align:center;padding:90px 20px 80px;background:radial-gradient(circle at center,#57228b 0,#160c20 48%,#070509 100%)}
+.hero h1{font-size:clamp(42px,9vw,82px);margin:0;color:#c47aff;text-shadow:0 0 18px #7d24c7,3px 3px 0 #fff}
+.hero h2{color:#f5d56a;font-size:28px;margin:12px 0}.hero p{font-size:18px;max-width:650px;margin:20px auto;line-height:1.6}
+.btn{display:inline-block;background:#b86cff;color:#fff;padding:14px 24px;border-radius:30px;text-decoration:none;font-weight:900;margin:7px;box-shadow:0 0 15px #7d24c7}
+.btn.gold{background:#c9a227;color:#120b18}
+section{padding:65px 7%;max-width:1200px;margin:auto}.title{text-align:center;font-size:38px;color:#c47aff;margin-bottom:35px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
+.card{background:linear-gradient(145deg,#17101f,#2a123c);border:1px solid #70409a;border-radius:22px;padding:25px;text-align:center;box-shadow:0 12px 30px #0008}
+.card h3{margin:8px 0;color:#fff;font-size:23px}.price{font-size:25px;color:#f5d56a;font-weight:900}.tag{display:inline-block;background:#5d2384;border-radius:20px;padding:7px 12px;font-size:13px;margin:5px}
+.order{background:linear-gradient(135deg,#2a1040,#120b18);border-top:1px solid #70409a;border-bottom:1px solid #70409a}
+.contact{text-align:center}.contact a{color:#e0b9ff}
+footer{text-align:center;padding:28px;background:#050307;color:#bbb;border-top:1px solid #2e1b3c}
+.small{color:#bbb;line-height:1.7}
+@media(max-width:700px){nav{flex-direction:column}.brand{font-size:21px}nav a{margin:0 6px;font-size:13px}.hero{padding:65px 18px}.title{font-size:31px}}
+</style>
+</head>
+<body>
+<header><nav><div class="brand">🍭 Poppin' with Ashley</div><div><a href="#menu">Menu</a><a href="#orders">Orders</a><a href="#about">About</a><a href="#contact">Contact</a></div></nav></header>
+
+<section class="hero">
+<h1>Poppin' with Ashley</h1><h2>✨ SWEET TREATS ✨</h2>
+<p>Pretty, poppin' treats made with love for birthdays, celebrations, parties, or just because!</p>
+<a class="btn" href="#menu">View Menu</a><a class="btn gold" href="tel:7347852103">Call to Order</a>
+</section>
+
+<section id="menu">
+<h2 class="title">🍭 Our Menu</h2>
+<div class="grid">
+<div class="card"><span class="tag">CAKE POPS</span><h3>Chocolate</h3><div class="price">$2.50</div></div>
+<div class="card"><span class="tag">CAKE POPS</span><h3>Vanilla</h3><div class="price">$2.50</div></div>
+<div class="card"><span class="tag">CAKE POPS</span><h3>Red Velvet</h3><div class="price">$2.50</div></div>
+<div class="card"><span class="tag">CAKE POPS</span><h3>Birthday Cake</h3><div class="price">$2.50</div></div>
+<div class="card"><span class="tag">POPSICLE POPS</span><h3>Chocolate</h3><div class="price">$4.00</div></div>
+<div class="card"><span class="tag">POPSICLE POPS</span><h3>Strawberry</h3><div class="price">$4.00</div></div>
+<div class="card"><span class="tag">POPSICLE POPS</span><h3>Birthday Cake</h3><div class="price">$4.00</div></div>
+</div>
+</section>
+
+<section id="orders" class="order">
+<h2 class="title">🎉 Party Orders</h2>
+<div class="grid">
+<div class="card"><h3>12 Pops</h3><div class="price">$48</div><p class="small">Perfect for a small celebration.</p></div>
+<div class="card"><h3>24 Pops</h3><div class="price">$90</div><p class="small">A party favorite!</p></div>
+<div class="card"><h3>50 Pops</h3><div class="price">$190</div><p class="small">Made for bigger celebrations.</p></div>
+</div>
+</section>
+
+<section id="about">
+<h2 class="title">💜 About Poppin' with Ashley</h2>
+<div class="card"><p class="small">Welcome to Poppin' with Ashley! I make fun, colorful cake pops and popsicle pops designed to make every celebration a little sweeter. Custom colors, sprinkles, drizzles, and themed designs are available for qualifying orders.</p></div>
+</section>
+
+<section id="contact" class="contact">
+<h2 class="title">📲 Let's Get Poppin'!</h2>
+<p><strong>Phone:</strong> <a href="tel:7347852103">734-785-2103</a></p>
+<p><strong>Email:</strong> <a href="mailto:poppinwithashley@gmail.com">poppinwithashley@gmail.com</a></p>
+<a class="btn" href="tel:7347852103">Call Ashley</a>
+<a class="btn gold" href="mailto:poppinwithashley@gmail.com">Email Ashley</a>
+</section>
+
+<footer>© 2026 Poppin' with Ashley • Sweet Treats Made With Love 💜</footer>
+</body>
+</html>
